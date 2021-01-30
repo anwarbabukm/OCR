@@ -18,12 +18,12 @@ def pre_processing(image):
     # saving image to view threshold image
     cv2.imwrite('thresholded.png', threshold_img)
 
-    cv2.imshow('threshold image', threshold_img)
+    #cv2.imshow('threshold image', threshold_img)
     # Maintain output window until
     # user presses a key
-    cv2.waitKey(0)
+    #cv2.waitKey(0)
     # Destroying present windows on screen
-    cv2.destroyAllWindows()
+    #cv2.destroyAllWindows()
 
     return threshold_img
 
@@ -64,11 +64,11 @@ def draw_boxes(image, details, threshold_point):
     # saving image to local
     cv2.imwrite('captured_text_area.png', image)
     # display image
-    cv2.imshow('captured text', image)
+    #cv2.imshow('captured text', image)
     # Maintain output window until user presses a key
-    cv2.waitKey(0)
+    #cv2.waitKey(0)
     # Destroying present windows on screen
-    cv2.destroyAllWindows()
+    #cv2.destroyAllWindows()
 
 
 def format_text(details):

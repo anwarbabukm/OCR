@@ -107,7 +107,7 @@ def write_text(formatted_text):
 
 if __name__ == "__main__":
     # reading image from local
-    image = cv2.imread('sample_image.png')
+    image = cv2.imread('test.png')
     # calling pre_processing function to perform pre-processing on input image.
     thresholds_image = pre_processing(image)
     # calling parse_text function to get text from image by Tesseract.
